@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    height: 915px;
+    background: linear-gradient(-90deg, skyblue, darkblue);
+}
+/* profil */
+.fig{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+}
+.cap{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 7px solid whitesmoke;
+}
+/* title */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: ;
+    color: whitesmoke;
+    border: 7px solid;
+    border-radius: 20px;
+    background: maroon;
+    font-size: 50px;
+}
+@keyframes neon{
+ 0%{
+     color: red;
+     font-size: 25px;
+ }
+ 20%{
+     color: yellow;
+     font-size: 30px;
+ }
+ 40%{
+     color: greenyellow;
+     font-size: 25px;
+ }
+ 60%{
+     color: tomato;
+     font-size: 30px;
+ }
+ 80%{
+     color: grey;
+     font-size: 25px;
+ }
+ 100%{
+     color:  hotpink;
+     font-size: 30;
+ }
+
+}
+/* réseaux */
+.contenair{
+
+    flex-direction: column;
+    padding: 50px;
+}
+.logonom{
+    display: flex;
+    align-items: center;
+  
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: linear-gradient(90deg, white, skyblue, darkblue);
+    height: 80px;
+    width: 200px;
+    border-radius: 0 50px 50px 0;
+    animation: neon 5s infinite;
+
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation: glisse 5s infinite;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+@keyframes glisse{
+    0%{
+  
+       background-color: black;
+    }
+    25%{
+       
+        background-color: red;
+    }
+    50%{
+
+        background-color:  yellow;
+    }
+    75%{
+        background-color: tomato;
+    }
+    100%{
+        background-color: turquoise;
+    }
+
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+

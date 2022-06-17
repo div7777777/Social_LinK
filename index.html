@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    height: 915px;
+    background: linear-gradient(-90deg, skyblue, darkblue);
+}
+/* profil */
+.fig{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+}
+.cap{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 7px solid whitesmoke;
+}
+/* title */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: ;
+    color: whitesmoke;
+    border: 7px solid;
+    border-radius: 20px;
+    background: maroon;
+    font-size: 50px;
+}
+@keyframes neon{
+ 0%{
+     color: red;
+     font-size: 25px;
+ }
+ 20%{
+     color: yellow;
+     font-size: 30px;
+ }
+ 40%{
+     color: greenyellow;
+     font-size: 25px;
+ }
+ 60%{
+     color: tomato;
+     font-size: 30px;
+ }
+ 80%{
+     color: grey;
+     font-size: 25px;
+ }
+ 100%{
+     color:  hotpink;
+     font-size: 30;
+ }
+
+}
+/* réseaux */
+.contenair{
+
+    flex-direction: column;
+    padding: 50px;
+}
+.logonom{
+    display: flex;
+    align-items: center;
+  
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: linear-gradient(90deg, white, skyblue, darkblue);
+    height: 80px;
+    width: 200px;
+    border-radius: 0 50px 50px 0;
+    animation: neon 5s infinite;
+
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation: glisse 5s infinite;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+@keyframes glisse{
+    0%{
+  
+       background-color: black;
+    }
+    25%{
+       
+        background-color: red;
+    }
+    50%{
+
+        background-color:  yellow;
+    }
+    75%{
+        background-color: tomato;
+    }
+    100%{
+        background-color: turquoise;
+    }
+
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+    </style>
+    <!-- profil -->
+    <div class="fig"><img class="cap" src="1.png" alt=""></div>
+    <!-- title -->
+    <div class="title">
+       <h1 class="h1"> Social LinK<img src="https://img.icons8.com/ios/50/ffffff/centralized-network.png"/></h1>
+    </div>
+
+    <!-- réseaux -->
+    <div class="contenair">
+   <div class="logonom"> <div class="circle"><img class="img" src="https://img.icons8.com/plasticine/70/undefined/instagram-new--v2.png"/></div> <h2 class="h2"> Instagram</h2></div>
+    <div class="logonom"><div class="circle"><img class="img" src="https://img.icons8.com/doodle/70/undefined/tiktok--v1.png"/></div> <h2 class="h2"> TikTok</h2></div>
+    <div class="logonom"><div class="circle"><img class="img" src="https://img.icons8.com/color/70/undefined/facebook.png"/></div> <h2 class="h2"> Facebook</h2></div>
+    <div class="logonom"><div class="circle"><img class="img" src="https://img.icons8.com/color/70/undefined/youtube-play.png"/></div> <h2 class="h2"> YouTube</h2></div>
+    <div class="logonom"><div class="circle"><img class="img" src="https://img.icons8.com/color/70/undefined/twitter--v1.png"/></div> <h2 class="h2"> Twitter</h2></div>
+    </div>
+    <footer class="footer">
+
+         <h3 class="h3">Copyrigth2022 HD</h3>
+    </footer>
+    
+</body>
+</html>
